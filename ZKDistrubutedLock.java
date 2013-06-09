@@ -91,7 +91,7 @@ public class ZKDistrubutedLock implements Watcher{
 
 	public synchronized void unlock() throws KeeperException, InterruptedException {
 		// TODO Auto-generated method stub
-		zk.delete(node, -1);
+		//zk.delete(node, -1);
 		zk.close();
 	}
 
